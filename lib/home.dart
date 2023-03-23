@@ -28,6 +28,7 @@ class _HomeState extends State<Home> {
 
   void _onItemTapped(int index) {
     //setState() notifies the framework (flutter) the state of this object has changed, //then rebuilds this widget internally
+    //If we don't specify setState() here, the screen UI will not reflect any changes//
     setState(() {
       //the selected index is the state being tracked by _HomeState
       _selectedIndex = index;
