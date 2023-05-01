@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:flutter/cupertino.dart'; //To use iOS theme, we need to import Cupertino. Syntax differs from material.dart though
 import 'package:google_fonts/google_fonts.dart';
 
 class FooderlichTheme {
